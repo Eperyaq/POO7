@@ -1,9 +1,5 @@
 
 /*
-* Se quiere crear una clase Cuenta la cual se caracteriza por tener asociado un número de cuenta y un saldo disponible.
-
-Además, se puede consultar el saldo disponible, recibir abonos y realizar pagos.
-
 Crear también una clase Persona, que se caracteriza por un DNI y una lista de cuentas bancarias.
 
 La Persona puede tener asociada hasta 3 cuentas bancarias, y debe tener un método que permita añadir cuentas (hasta 3 el máximo permitido). Las cuentas se almacenarán en un array/vector. No usar una lista.
@@ -19,6 +15,10 @@ Posteriormente hacer una transferencia de una cuenta a otra (de forma que todos 
 fun main() {
 
     val miCuenta = Cuenta(123123123, 500)
+    val paco = Persona("123123A", 123123123)
+
+    paco.añadirCuentas()
+
 
     //miCuenta.realizarPago() FUNCIONA BIEN
     //miCuenta.recibirAbono()

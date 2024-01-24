@@ -57,5 +57,23 @@ class Cuenta (
     }
 
 
+    //Debe contener un método que devuelva si la persona es morosa (si tienen alguna cuenta con saldo negativo). Recibirá como parámetro el objeto Persona y devolverá un booleano.
+    /*
+    fun comprobacionMoroso(paco:Persona):Boolean{
+
+        //como compruebo el saldo de la cuenta de paco?
+
+    }
+
+     */
+
+    //Debe contener un método que realice una transferencia entre dos cuentas. Recibirá como parámetro dos objetos PersonaB, dos identificacdors de cuentas y la cantidad a transferir. Devolverá un booleano indicando si se ha podido realizar o no la operación.
+/*
+    fun realizarTransferencia(manuel:Persona, jose:Persona) : Boolean{
+
+
+    }
+
+ */
 
 }

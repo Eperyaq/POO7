@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b26fe0d-2ffb-4f54-a12f-b6a4a6852c68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cuenta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+    <list default="true" id="5b26fe0d-2ffb-4f54-a12f-b6a4a6852c68" name="Changes" comment="primer commit">
+      <change afterPath="$PROJECT_DIR$/src/Persona.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cuenta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuenta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -71,6 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706086340572</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1706088206934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706088206934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
   </component>
 </project>
