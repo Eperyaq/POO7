@@ -24,5 +24,4 @@ fun main() {
     //miCuenta.recibirAbono()
     //println(miCuenta.consultarSaldo())
 
-
 }

@@ -1,5 +1,3 @@
-//Se quiere crear una clase Cuenta la cual se caracteriza por tener asociado un número de cuenta y un saldo disponible.
-//Además, se puede consultar el saldo disponible, recibir abonos y realizar pagos.
 
 class Cuenta (
     val numeroCuenta:Int,
@@ -35,8 +33,6 @@ class Cuenta (
 
     fun realizarPago(){
         println("Cuanto vas a pagar? -> ")
-
-
 
         try {
             var pagar = readln().toDouble()

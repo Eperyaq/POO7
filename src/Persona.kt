@@ -6,29 +6,58 @@ La Persona puede tener asociada hasta 3 cuentas bancarias, y debe tener un méto
 
 class Persona(
     val dni:String,
-    val cuentaBancaria:Int
+    var cuentaBancaria:Int
 )
 {
-
+/*
+* Método que añade una cuenta a una persona
+*
+* @return arrayCuentas: Intarray - Array con los numeros de cuentas de las cuentas de la persona
+*/
     fun añadirCuentas(): IntArray{
         var arrayCuentas = IntArray(3)
         var pinguino = true
 
         while (pinguino){
             print("Quieres añadir una cuenta? (s/n)-> ")
-            val respuesta = readln()
+            var respuesta = readln()
             if (respuesta != "s" && respuesta != "si"){
                 println("saliendo...")
                 pinguino = false
             }else{
                 print("Introduzca un numero de cuenta")
                 try {
-                    val numcuenta = readln().toInt()
+                    if (arrayCuentas.size == 3){
+                        println("No puedes tener mas de 3 cuentas..")
+                        pinguino = false
+                    }else {
+                        var cuentaBancaria = readln().toInt()
 
-                    //No se como añadir de manera automatica que no se guarde siempre en el primer valor, y cuando hago print del array me sale como un identificador
-                    arrayCuentas[0] = numcuenta
+                        //No se como añadir de manera automatica que no se guarde siempre en el primer valor, y cuando hago print del array me sale como un identificador
+                        arrayCuentas[0] = cuentaBancaria
+                    }
+
+                    println("Deseas añadir otra? (s/n)")
+                     respuesta = readln()
+                    if (respuesta != "s" && respuesta != "si") {
+                        println("saliendo...")
+                        pinguino = false
+                    }else{
+                         cuentaBancaria = readln().toInt()
+
+                        arrayCuentas[1] = cuentaBancaria
+                    }
+                    println("Deseas añadir otra? (s/n)")
+                    respuesta = readln()
+                    if (respuesta != "s" && respuesta != "si") {
+                        println("saliendo...")
+                        pinguino = false
+                    }else{
+                        cuentaBancaria = readln().toInt()
+
+                        arrayCuentas[2] = cuentaBancaria
+                    }
                     println(arrayCuentas)
-                    //CONTROLAR QUE NO TENGA MAS DE 3 CUENTAS
                 }catch (e: NumberFormatException){
                     println("ERROR no se pudo hacer la conversión")
                 }
